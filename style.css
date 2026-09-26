@@ -46,10 +46,15 @@ a { color: inherit; }
 }
 
 .brand {
-  font-size: 1.05rem;
-  font-weight: 850;
-  letter-spacing: .16em;
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.brand img {
+  display: block;
+  width: 74px;
+  height: 74px;
 }
 
 nav {
