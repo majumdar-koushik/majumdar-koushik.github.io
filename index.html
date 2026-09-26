@@ -17,7 +17,9 @@
 <body>
   <div class="page">
     <header class="site-header">
-      <a class="brand" href="/" aria-label="Babutus home"><img src="Babutus_logo.png" alt="Babutus — Software for You"></a>
+      <a class="brand" href="/" aria-label="Babutus home">
+        <span class="logo-plate"><img src="Babutus_logo.png" alt="Babutus — Software for You"></span>
+      </a>
       <nav aria-label="Main navigation">
         <a href="#product">Product</a>
         <a href="#about">About</a>
@@ -28,33 +30,38 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Independent software studio</p>
-          <h1 id="hero-title">Useful software.<br>Built around<br><em>real problems.</em></h1>
-          <p class="hero-text">
-            Babutus creates focused digital products designed to make everyday life simpler.
-          </p>
-          <a class="hero-link" href="#product">Explore the first product <span>↓</span></a>
+          <h1 id="hero-title">Useful software.<br>Built around <em>real problems.</em></h1>
+          <p class="hero-text">Focused digital products for specific everyday problems.</p>
         </div>
+
+        <div class="hero-actions">
+          <a class="action-card" href="#product">
+            <span class="action-kicker">Product</span>
+            <strong>OnlyThese</strong>
+            <span>Coming soon →</span>
+          </a>
+          <a class="action-card" href="#about">
+            <span class="action-kicker">Studio</span>
+            <strong>What is Babutus?</strong>
+            <span>Learn more →</span>
+          </a>
+        </div>
+
         <div class="hero-orb orb-one" aria-hidden="true"></div>
         <div class="hero-orb orb-two" aria-hidden="true"></div>
       </section>
 
-      <section id="product" class="product-section">
-        <div class="product-card">
-          <div>
-            <p class="product-label">First product · Coming soon</p>
-            <h2>OnlyThese</h2>
-            <p>
-              A task manager built around one idea: show you what needs attention now,
-              instead of making you manage a complicated task system.
-            </p>
-          </div>
-          <span class="status">Coming soon</span>
+      <section id="product" class="product-panel">
+        <div>
+          <p class="product-label">Current product</p>
+          <h2>OnlyThese</h2>
+          <p>See only what needs attention now. No complicated task system.</p>
         </div>
+        <span class="status">Coming soon</span>
       </section>
 
-      <section id="about" class="about">
-        <p class="eyebrow">Babutus</p>
-        <p>Small products. Specific problems. No unnecessary complexity.</p>
+      <section id="about" class="about-panel">
+        <p><strong>Babutus</strong> builds small, focused software around real problems.</p>
       </section>
     </main>
 
