@@ -486,3 +486,24 @@ blockquote {
 @media(min-width:821px){.product-view{padding-top:36px}}
 @media(max-width:820px){.product-view{padding-top:30px}.product-heading{margin-bottom:22px}.tab-panel{min-height:0}}
 @media(max-width:560px){.products-menu button{font-size:.9rem!important}.product-menu{right:0;top:40px;min-width:145px}.product-menu a{padding:10px 12px!important;font-size:.82rem!important}.product-view{padding-top:24px}}
+
+/* Final compact positioning */
+@media(min-width:821px){
+  .brand{left:30px;bottom:-48px}
+  .product-view{padding-top:12px}
+  .product-heading{margin-bottom:20px}
+  .product-heading h2{font-size:clamp(2.35rem,4.5vw,3.6rem)}
+  .tabs{margin-bottom:20px}
+  .tab-panel{min-height:0}
+}
+@media(max-width:820px){
+  .product-view{padding-top:18px}
+  .product-heading{margin-bottom:18px}
+  .tabs{margin-bottom:18px}
+  .tab-panel{min-height:0}
+}
+@media(max-width:560px){
+  .brand{left:12px;bottom:-42px}
+  .product-view{padding-top:16px}
+  .product-heading{margin-bottom:15px}
+}
