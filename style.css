@@ -640,3 +640,10 @@ blockquote {
     max-width:480px!important;
   }
 }
+
+@media(min-width:821px){
+  .video-panel .video-heading-row{display:flex!important;align-items:center!important;justify-content:space-between!important;margin:0 0 6px!important;padding:0!important}
+  .video-panel .video-heading-row h3{margin:0!important;padding:0!important;font-size:1.05rem!important;line-height:1.15!important}
+  .video-panel .video-heading-row .text-link{position:static!important;margin:0!important;white-space:nowrap!important;font-size:.82rem!important}
+  .video-panel .video-frame{margin:0!important;width:480px!important;max-width:480px!important}
+}
