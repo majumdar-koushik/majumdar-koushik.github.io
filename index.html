@@ -10,150 +10,39 @@
   <meta property="og:description" content="A task manager designed to manage attention, not just tasks.">
   <meta property="og:url" content="https://babutus.com/#product">
   <meta property="og:type" content="website">
-  <title>OnlyThese — Babutu’s</title>
-  <link rel="stylesheet" href="style.css?v=3">
+  <title>Babutus — Software & Product Studio</title>
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <div class="page">
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="Babutus home">
-        <span class="logo-plate"><img src="Babutus_logo.png" alt="Babutus — Software for You"></span>
-      </a>
+        <header class="site-header">
+      <a class="brand" href="#home" aria-label="Babutus home"><span class="logo-plate"><img src="Babutus_logo.png" alt="Babutus — Software & Product Studio"></span></a>
       <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/">Babutus</a>
-        <a href="#product">OnlyThese</a>
-        <a href="#try">Try it</a>
+        <a href="#home">Home</a>
+        <div class="products-menu">
+          <button type="button" aria-expanded="false" aria-controls="product-menu">Products ▾</button>
+          <div id="product-menu" class="product-menu" role="menu"><a href="#onlythese" role="menuitem">OnlyThese</a></div>
+        </div>
       </nav>
     </header>
 
-    <main>
-      <section class="product-hero" id="product">
-        <div class="hero-copy">
-          <p class="eyebrow">Current product · Version 1.0</p>
-          <h1>OnlyThese</h1>
-          <p class="hero-lead">A task manager designed to manage <em>attention</em>, not just tasks.</p>
-          <p class="hero-text">When everything is visible, everything competes for attention. OnlyThese keeps the rest of your commitments there without making you carry all of them in your head at once.</p>
-          <a class="primary-button" href="#try">Try OnlyThese →</a>
-        </div>
-        <div class="hero-visual" aria-label="OnlyThese product concept">
-          <div class="focus-card">
-            <span class="focus-label">TODAY</span>
-            <strong>What needs your attention now?</strong>
-            <div class="focus-task">Task 1 <span>✓</span></div>
-            <div class="focus-task">Task 2 <span>→</span></div>
-            <div class="focus-note">Complete one. The next task in the queue appears.</div>
-          </div>
-        </div>
+        <main>
+      <section class="home-view" id="home">
+        <p class="eyebrow">Babutus</p><h1>Software &amp; Product Studio</h1>
+        <p class="home-lead">We build practical software products for everyday problems.</p>
+        <p class="home-text">Babutus is an independent product studio focused on simple, useful mobile software.</p>
+        <a class="primary-button" href="#onlythese">View our product →</a>
       </section>
-
-      <section class="section problem">
-        <p class="section-label">The problem</p>
-        <h2>When everything is visible, everything competes for attention.</h2>
-        <div class="two-column">
-          <p>Every day brings new ideas, new responsibilities and new urgent work. The list keeps growing. Eventually it can become so long that it stops helping.</p>
-          <p>For years, the search was for a better task list. The turning point was realizing that long-term recurring commitments could quietly disappear beneath everyday urgency.</p>
+      <section class="product-view" id="onlythese" aria-labelledby="onlythese-title">
+        <div class="product-heading"><div><p class="eyebrow">Product · Version 1.0</p><h2 id="onlythese-title">OnlyThese</h2><p class="hero-lead">A task manager designed to manage <em>attention</em>, not just tasks.</p></div><a class="back-link" href="#home">← Babutus Home</a></div>
+        <div class="tabs" role="tablist" aria-label="OnlyThese information">
+          <button class="tab active" role="tab" aria-selected="true" data-tab="overview">Overview</button><button class="tab" role="tab" aria-selected="false" data-tab="how">How it works</button><button class="tab" role="tab" aria-selected="false" data-tab="features">Features</button><button class="tab" role="tab" aria-selected="false" data-tab="video">Video</button><button class="tab" role="tab" aria-selected="false" data-tab="try">Try it</button>
         </div>
-        <blockquote>How do I keep my long-term commitments alive while dealing with today’s demands?</blockquote>
-      </section>
-
-      <section class="section approach">
-        <p class="section-label">The approach</p>
-        <h2>You don't lose the rest of your commitments. You simply stop carrying all of them in your head at once.</h2>
-        <div class="mechanisms">
-          <article>
-            <span>01</span>
-            <h3>HIDE</h3>
-            <p>Choose how many Today’s tasks you want to see. Drag the ones you need into the visible window. Future and less-urgent work stays out of the way.</p>
-            <p class="detail">When a visible task is completed, the next task in the queue automatically appears.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>ROLLOVER</h3>
-            <p>Recurring commitments return when they are due. Daily and weekly recurring tasks appear in Today’s list on their due dates; monthly tasks remain in their monthly cycle.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>STREAKS</h3>
-            <p>Every recurring completion builds a visible history. Streaks show continuity, while accumulated misses remain visible in the calendar.</p>
-          </article>
-        </div>
-        <div class="feature-strip">
-          <div><strong>Alarms</strong><span>Set an alarm on a task when you need a specific reminder.</span></div>
-          <div><strong>Focus window</strong><span>Only the tasks you choose to see compete for immediate attention.</span></div>
-        </div>
-      </section>
-
-      <section class="section video-section">
-        <div class="section-heading">
-          <div>
-            <p class="section-label">See it in action</p>
-            <h2>See what OnlyThese is trying to change.</h2>
-          </div>
-          <a class="text-link" href="https://youtube.com/shorts/9t9RLIQ9Pyo" target="_blank" rel="noopener">Open Short →</a>
-        </div>
-        <div class="video-frame">
-          <iframe src="https://www.youtube.com/embed/9t9RLIQ9Pyo" title="OnlyThese short video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </section>
-
-      <section class="section features">
-        <p class="section-label">What you can do</p>
-        <h2>A focused task cycle, without hiding the rest of your work.</h2>
-        <div class="feature-grid">
-          <div><strong>Today</strong><span>See the tasks requiring attention today.</span></div>
-          <div><strong>Missed</strong><span>Bring missed work back into view when it needs attention.</span></div>
-          <div><strong>Recurring tasks</strong><span>Keep daily, weekly and monthly commitments alive.</span></div>
-          <div><strong>Streak calendar</strong><span>Review recurring completion history and misses.</span></div>
-          <div><strong>Task records</strong><span>Keep notes and progress with the task.</span></div>
-          <div><strong>Data management</strong><span>Backup, restore, export, import and archive your task data.</span></div>
-        </div>
-        <p class="guide-note">A complete User Guide will be provided here for people who want the detailed feature-by-feature explanation.</p>
-      </section>
-
-      <section class="section try-section" id="try">
-        <p class="section-label">Closed test</p>
-        <h2>Try OnlyThese</h2>
-        <p class="intro">OnlyThese is currently in closed testing. You can use the app and tell us whether this approach actually changes how you work.</p>
-
-        <div class="steps">
-          <article class="step">
-            <span>1</span>
-            <div>
-              <h3>Join the OnlyThese Testers Google Group</h3>
-              <a href="https://groups.google.com/g/onlythese-testers" target="_blank" rel="noopener">Join the testers group →</a>
-            </div>
-          </article>
-          <article class="step">
-            <span>2</span>
-            <div>
-              <h3>Join the Closed Test</h3>
-              <p>After joining the group, open the testing page and choose <strong>Join the test</strong>.</p>
-              <a href="https://play.google.com/apps/testing/com.babutus.onlythese" target="_blank" rel="noopener">Join the closed test →</a>
-            </div>
-          </article>
-          <article class="step">
-            <span>3</span>
-            <div>
-              <h3>Install OnlyThese</h3>
-              <p>After joining the test, open the Play Store link and install OnlyThese.</p>
-              <a href="https://play.google.com/store/apps/details?id=com.babutus.onlythese" target="_blank" rel="noopener">Install OnlyThese →</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="important"><strong>Important:</strong> Please use the <strong>same Google account</strong> for joining the Google Group, joining the test, and installing the app.</div>
-      </section>
-
-      <section class="section feedback">
-        <p class="section-label">Feedback</p>
-        <h2>Use it for a few days, then tell us honestly.</h2>
-        <div class="feedback-grid">
-          <p>Does this solve a real problem?</p>
-          <p>Would you use it yourself?</p>
-          <p>What confused you?</p>
-          <p>What would stop you from replacing your current task manager?</p>
-          <p>If you could change one thing, what would it be?</p>
-        </div>
+        <div class="tab-panel active" id="panel-overview" role="tabpanel"><div class="overview-grid"><div><h3>When everything is visible, everything competes for attention.</h3><p>OnlyThese keeps your commitments there without making you carry all of them in your head at once.</p><blockquote>How do I keep my long-term commitments alive while dealing with today’s demands?</blockquote></div><div class="focus-card"><span class="focus-label">TODAY</span><strong>What needs your attention now?</strong><div class="focus-task">Task 1 <span>✓</span></div><div class="focus-task">Task 2 <span>→</span></div><div class="focus-note">Complete one. The next task in the queue appears.</div></div></div></div>
+        <div class="tab-panel" id="panel-how" role="tabpanel" hidden><div class="mechanisms"><article><span>01</span><h3>HIDE</h3><p>Choose how many Today’s tasks you want to see. Drag the ones you need into the visible window. Future and less-urgent work stays out of the way.</p><p class="detail">When a visible task is completed, the next task in the queue automatically appears.</p></article><article><span>02</span><h3>ROLLOVER</h3><p>Recurring commitments return when they are due. Daily and weekly recurring tasks appear on their due dates; monthly tasks remain in their monthly cycle.</p></article><article><span>03</span><h3>STREAKS</h3><p>Every recurring completion builds a visible history. Streaks show continuity, while accumulated misses remain visible in the calendar.</p></article></div><div class="feature-strip"><div><strong>Alarms</strong><span>Set an alarm on a task when you need a specific reminder.</span></div><div><strong>Focus window</strong><span>Only the tasks you choose to see compete for immediate attention.</span></div></div></div>
+        <div class="tab-panel" id="panel-features" role="tabpanel" hidden><div class="feature-grid"><div><strong>Today</strong><span>See the tasks requiring attention today.</span></div><div><strong>Missed</strong><span>Bring missed work back into view when it needs attention.</span></div><div><strong>Recurring tasks</strong><span>Keep daily, weekly and monthly commitments alive.</span></div><div><strong>Streak calendar</strong><span>Review recurring completion history and misses.</span></div><div><strong>Task records</strong><span>Keep notes and progress with the task.</span></div><div><strong>Data management</strong><span>Backup, restore, export, import and archive your task data.</span></div></div><p class="guide-note">A complete User Guide will be provided here for people who want the detailed feature-by-feature explanation.</p></div>
+        <div class="tab-panel" id="panel-video" role="tabpanel" hidden><div class="section-heading"><div><p class="eyebrow">See it in action</p><h3>See what OnlyThese is trying to change.</h3></div><a class="text-link" href="https://youtube.com/shorts/9t9RLIQ9Pyo" target="_blank" rel="noopener">Open Short →</a></div><div class="video-frame"><iframe src="https://www.youtube.com/embed/9t9RLIQ9Pyo" title="OnlyThese short video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div>
+        <div class="tab-panel try-panel" id="panel-try" role="tabpanel" hidden><p class="eyebrow">Closed test</p><h3>Try OnlyThese</h3><p>OnlyThese is currently in closed testing. You can use the app and tell us whether this approach actually changes how you work.</p><div class="steps"><article class="step"><span>1</span><h4>Join the testers group</h4><a href="https://groups.google.com/g/onlythese-testers" target="_blank" rel="noopener">Join the OnlyThese Testers Google Group →</a></article><article class="step"><span>2</span><h4>Join the closed test</h4><p>Choose <strong>Join the test</strong> on the testing page.</p><a href="https://play.google.com/apps/testing/com.babutus.onlythese" target="_blank" rel="noopener">Join the closed test →</a></article><article class="step"><span>3</span><h4>Install OnlyThese</h4><p>Open the Play Store page and install the app.</p><a href="https://play.google.com/store/apps/details?id=com.babutus.onlythese" target="_blank" rel="noopener">Install OnlyThese →</a></article></div><div class="important"><strong>Important:</strong> Use the <strong>same Google account</strong> for joining the group, joining the test, and installing the app.</div><div class="feedback"><p class="eyebrow">Feedback</p><h4>After using it for a few days:</h4><div class="feedback-grid"><span>Does this solve a real problem?</span><span>Would you use it yourself?</span><span>What confused you?</span><span>What would stop you replacing your current task manager?</span><span>If you could change one thing, what would it be?</span></div></div></div>
       </section>
     </main>
 
@@ -162,5 +51,13 @@
       <span>© 2026 Babutus</span>
     </footer>
   </div>
+  <script>
+const mb=document.querySelector('.products-menu button'),menu=document.querySelector('.product-menu');
+mb.addEventListener('click',()=>{const o=mb.getAttribute('aria-expanded')==='true';mb.setAttribute('aria-expanded',String(!o));menu.classList.toggle('open',!o)});
+document.addEventListener('click',e=>{if(!e.target.closest('.products-menu')){mb.setAttribute('aria-expanded','false');menu.classList.remove('open')}});
+const tabs=document.querySelectorAll('.tab'),panels=document.querySelectorAll('.tab-panel');
+tabs.forEach(t=>t.addEventListener('click',()=>{tabs.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-selected','false')});panels.forEach(p=>p.hidden=true);t.classList.add('active');t.setAttribute('aria-selected','true');document.getElementById('panel-'+t.dataset.tab).hidden=false}));
+function route(){const p=location.hash.toLowerCase()==='#onlythese';document.querySelector('.home-view').style.display=p?'none':'flex';document.querySelector('.product-view').style.display=p?'block':'none'}window.addEventListener('hashchange',route);route();
+  </script>
 </body>
 </html>
