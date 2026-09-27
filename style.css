@@ -647,3 +647,7 @@ blockquote {
   .video-panel .video-heading-row .text-link{position:static!important;margin:0!important;white-space:nowrap!important;font-size:.82rem!important}
   .video-panel .video-frame{margin:0!important;width:480px!important;max-width:480px!important}
 }
+
+@media(min-width:821px){
+  .video-panel .video-heading-row h3{font-weight:400!important}
+}
