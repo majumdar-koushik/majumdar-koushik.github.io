@@ -604,3 +604,11 @@ blockquote {
   .video-panel .video-link{position:absolute!important;top:0!important;right:0!important}
   .video-panel .video-frame{margin:0!important;width:480px!important;max-width:480px!important}
 }
+
+@media(min-width:821px){
+  .video-panel{position:relative!important}
+  .video-panel .section-heading{display:block!important;margin:0!important;padding:0!important}
+  .video-panel .section-heading h3{display:block!important;margin:0 0 6px 0!important;padding:0!important;line-height:1.15!important;font-size:1.25rem!important}
+  .video-panel .video-link{position:absolute!important;right:0!important;top:0!important;margin:0!important}
+  .video-panel .video-frame{display:block!important;margin:0!important;width:480px!important;max-width:480px!important}
+}
