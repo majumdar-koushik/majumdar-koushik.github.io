@@ -583,3 +583,11 @@ blockquote {
   body.product-page main{min-height:0}
   body.product-page .product-view{padding-bottom:0!important}
 }
+
+@media(min-width:821px){
+  .video-panel .section-heading{align-items:center;margin-bottom:4px!important}
+  .video-panel .section-heading>div{display:flex;align-items:baseline;gap:18px}
+  .video-panel .section-heading .eyebrow{margin:0!important}
+  .video-panel .section-heading h3{font-size:1.25rem!important;margin:0!important}
+  .video-panel .video-frame{margin-top:4px!important;width:560px!important;max-width:560px!important}
+}
