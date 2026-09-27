@@ -612,3 +612,31 @@ blockquote {
   .video-panel .video-link{position:absolute!important;right:0!important;top:0!important;margin:0!important}
   .video-panel .video-frame{display:block!important;margin:0!important;width:480px!important;max-width:480px!important}
 }
+
+@media(min-width:821px){
+  .video-panel .video-heading-row{
+    display:flex!important;
+    align-items:center!important;
+    justify-content:space-between!important;
+    width:100%!important;
+    margin:0 0 6px 0!important;
+    padding:0!important;
+  }
+  .video-panel .video-heading-row h3{
+    margin:0!important;
+    padding:0!important;
+    font-size:1.25rem!important;
+    line-height:1.15!important;
+  }
+  .video-panel .video-heading-row .video-link{
+    position:static!important;
+    margin:0!important;
+    display:block!important;
+    white-space:nowrap!important;
+  }
+  .video-panel .video-frame{
+    margin:0!important;
+    width:480px!important;
+    max-width:480px!important;
+  }
+}
