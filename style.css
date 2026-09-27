@@ -507,3 +507,13 @@ blockquote {
   .product-view{padding-top:16px}
   .product-heading{margin-bottom:15px}
 }
+
+/* Desktop correction: keep logo completely outside product content column */
+@media(min-width:821px){
+  .brand{left:24px!important;bottom:-48px!important}
+  .product-view{padding-top:0!important}
+  .product-heading{margin-top:0!important;margin-bottom:16px!important}
+  .product-heading h2{font-size:clamp(2.25rem,4vw,3.4rem)!important}
+  .tabs{margin-bottom:16px!important}
+  .tab-panel{min-height:0!important}
+}
