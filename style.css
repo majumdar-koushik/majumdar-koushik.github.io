@@ -575,3 +575,11 @@ blockquote {
   .logo-plate{width:126px!important;height:126px!important}
   .brand{left:8px!important;bottom:-63px!important}
 }
+
+/* Product page is a single-screen desktop presentation */
+@media(min-width:821px){
+  body.product-page{overflow-y:hidden}
+  body.product-page .site-footer{display:none}
+  body.product-page main{min-height:0}
+  body.product-page .product-view{padding-bottom:0!important}
+}
