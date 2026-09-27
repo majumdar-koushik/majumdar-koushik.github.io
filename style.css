@@ -591,3 +591,9 @@ blockquote {
   .video-panel .section-heading h3{font-size:1.25rem!important;margin:0!important}
   .video-panel .video-frame{margin-top:4px!important;width:560px!important;max-width:560px!important}
 }
+
+@media(min-width:821px){
+  .video-panel .section-heading{margin:0!important;padding:0!important}
+  .video-panel .section-heading h3{margin:0!important;line-height:1.15!important}
+  .video-panel .video-frame{margin-top:0!important;width:480px!important;max-width:480px!important}
+}
