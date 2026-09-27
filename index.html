@@ -57,7 +57,7 @@ mb.addEventListener('click',()=>{const o=mb.getAttribute('aria-expanded')==='tru
 document.addEventListener('click',e=>{if(!e.target.closest('.products-menu')){mb.setAttribute('aria-expanded','false');menu.classList.remove('open')}});
 const tabs=document.querySelectorAll('.tab'),panels=document.querySelectorAll('.tab-panel');
 tabs.forEach(t=>t.addEventListener('click',()=>{tabs.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-selected','false')});panels.forEach(p=>p.hidden=true);t.classList.add('active');t.setAttribute('aria-selected','true');document.getElementById('panel-'+t.dataset.tab).hidden=false}));
-function route(){const p=location.hash.toLowerCase()==='#onlythese';document.querySelector('.home-view').style.display=p?'none':'flex';document.querySelector('.product-view').style.display=p?'block':'none'}window.addEventListener('hashchange',route);route();
+function route(){const p=location.hash.toLowerCase()==='#onlythese';document.querySelector('.home-view').style.display=p?'none':'flex';document.querySelector('.product-view').style.display=p?'block':'none';window.scrollTo(0,0)}window.addEventListener('hashchange',route);route();
   </script>
 </body>
 </html>
