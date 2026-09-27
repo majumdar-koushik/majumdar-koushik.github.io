@@ -517,3 +517,29 @@ blockquote {
   .tabs{margin-bottom:16px!important}
   .tab-panel{min-height:0!important}
 }
+
+/* Final desktop compactness */
+@media(min-width:821px){
+  .product-view{position:relative;padding-top:0!important}
+  .back-link{position:absolute;top:12px;right:30px}
+  .product-heading{padding-top:8px;margin-bottom:12px!important}
+  .product-heading .hero-lead{margin-top:10px;font-size:1.15rem}
+  .tabs{margin-bottom:12px!important}
+  .tab-panel{min-height:0!important}
+  .video-panel .section-heading{margin-bottom:0}
+  .video-panel .video-frame{margin-top:12px;max-width:760px}
+  .try-panel{padding:22px!important}
+  .try-panel>p:not(.eyebrow){margin:8px 0 0}
+  .steps{margin-top:18px!important;gap:10px!important}
+  .step{padding:16px!important}
+  .step h4{margin:7px 0 5px!important}
+  .step p{margin:4px 0!important}
+  .important{margin-top:12px!important;padding:10px 14px!important}
+  .feedback{margin-top:14px!important;padding-top:12px!important}
+  .feedback h4{margin:0 0 5px!important}
+  .feedback-grid{gap:4px 24px!important}
+  .feedback-grid span{padding:6px 0!important}
+}
+@media(max-width:820px){
+  .back-link{position:static}
+}
