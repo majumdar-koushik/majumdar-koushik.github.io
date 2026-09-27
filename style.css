@@ -543,3 +543,35 @@ blockquote {
 @media(max-width:820px){
   .back-link{position:static}
 }
+
+/* Desktop final fit */
+@media(min-width:821px){
+  .brand{left:10px!important;bottom:-72px!important}
+  .logo-plate{width:144px!important;height:144px!important}
+  .product-view{padding-top:0!important}
+  .video-panel .video-frame{width:600px!important;max-width:600px!important;margin-top:8px!important}
+  .video-panel .section-heading h3{font-size:1.45rem!important}
+  .try-panel{padding:14px 18px!important}
+  .try-panel .eyebrow{margin-bottom:5px!important}
+  .try-panel h3{font-size:1.35rem!important}
+  .try-panel>p:not(.eyebrow){font-size:.78rem!important;line-height:1.35!important;margin:5px 0!important}
+  .steps{margin-top:10px!important;gap:8px!important}
+  .step{padding:10px 12px!important}
+  .step>span{font-size:1.05rem!important}
+  .step h4{font-size:.82rem!important;margin:4px 0!important}
+  .step p,.step a{font-size:.7rem!important;line-height:1.25!important}
+  .important{margin-top:8px!important;padding:7px 10px!important;font-size:.7rem!important}
+  .feedback{margin-top:8px!important;padding-top:7px!important}
+  .feedback .eyebrow{margin-bottom:3px!important}
+  .feedback h4{font-size:.8rem!important;margin:0 0 3px!important}
+  .feedback-grid{gap:2px 20px!important}
+  .feedback-grid span{font-size:.68rem!important;padding:3px 0!important}
+}
+@media(max-width:820px){
+  .logo-plate{width:126px!important;height:126px!important}
+  .brand{bottom:-63px!important}
+}
+@media(max-width:560px){
+  .logo-plate{width:126px!important;height:126px!important}
+  .brand{left:8px!important;bottom:-63px!important}
+}
