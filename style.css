@@ -544,6 +544,7 @@ blockquote {
 }
 @media(max-width:820px){
   .back-link{position:static}
+  .product-view{padding-top:78px!important}
 }
 
 /* Desktop final fit */
@@ -576,6 +577,7 @@ blockquote {
 @media(max-width:560px){
   .logo-plate{width:126px!important;height:126px!important}
   .brand{left:8px!important;bottom:-63px!important}
+  .product-view{padding-top:78px!important}
 }
 
 /* Product page is a single-screen desktop presentation */
