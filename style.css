@@ -654,3 +654,5 @@ blockquote {
 @media(min-width:821px){
   .video-panel .video-heading-row h3{font-weight:400!important}
 }
+
+@media(max-width:820px){.top-nav a,.products-menu button{font-size:.9rem!important;font-weight:400!important;}}
