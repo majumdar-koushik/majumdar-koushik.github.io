@@ -462,7 +462,6 @@ blockquote {
   .brand { bottom: -48px; }
   .logo-plate { width: 96px; height: 96px; }
   .top-nav { padding-left: 125px; font-size: .72rem; }
-  .top-nav a:first-child { display: none; }
   .product-hero { padding: 78px 20px 58px; }
   .section { padding: 58px 20px; }
   .approach,
