@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://babutus.com/</loc>
-  </url>
-  <url>
-    <loc>https://babutus.com/onlythese/too-many-tasks/</loc>
-  </url>
+  <url><loc>https://babutus.com/</loc></url>
+  <url><loc>https://babutus.com/onlythese/too-many-tasks/</loc></url>
+  <url><loc>https://babutus.com/onlythese/how-to-decide-what-task-to-do-now/</loc></url>
+  <url><loc>https://babutus.com/onlythese/urgent-tasks-important-tasks/</loc></url>
+  <url><loc>https://babutus.com/onlythese/task-manager-many-commitments/</loc></url>
+  <url><loc>https://babutus.com/onlythese/focus-on-todays-tasks/</loc></url>
+  <url><loc>https://babutus.com/onlythese/endless-task-lists/</loc></url>
+  <url><loc>https://babutus.com/onlythese/too-many-priorities/</loc></url>
+  <url><loc>https://babutus.com/onlythese/deciding-what-to-do-first/</loc></url>
+  <url><loc>https://babutus.com/onlythese/focus-on-fewer-tasks/</loc></url>
+  <url><loc>https://babutus.com/onlythese/important-work-buried/</loc></url>
 </urlset>
