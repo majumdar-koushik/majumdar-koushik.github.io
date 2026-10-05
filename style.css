@@ -767,3 +767,8 @@ blockquote {
 .feature-original{overflow:hidden!important}
 .feature-original::after{content:""!important;display:block!important;position:absolute!important;left:0!important;top:0!important;bottom:auto!important;width:25%!important;height:77%!important;background:#fff!important;z-index:2!important;pointer-events:none!important}
 .feature-original>img{width:100%!important;max-width:none!important;height:auto!important;transform:none!important;display:block!important}
+
+/* Use the original Feature.png, shifted left to remove its intro column */
+.feature-original{position:relative!important;overflow:hidden!important;width:100%!important}
+.feature-original::after{display:none!important}
+.feature-original>img{position:relative!important;left:-32.0%!important;transform:none!important;width:132.35%!important;max-width:none!important;height:auto!important;display:block!important}
