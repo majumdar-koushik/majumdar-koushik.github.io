@@ -762,3 +762,8 @@ blockquote {
 .feature-original{overflow:hidden!important}
 .feature-original::after{display:none!important}
 .feature-original>img{width:132.47%!important;max-width:none!important;height:auto!important;transform:translateX(-24.51%)!important;display:block!important}
+
+/* Final correction: keep Feature.png intact; hide only the top intro in column 1, not its step text */
+.feature-original{overflow:hidden!important}
+.feature-original::after{content:""!important;display:block!important;position:absolute!important;left:0!important;top:0!important;bottom:auto!important;width:25%!important;height:77%!important;background:#fff!important;z-index:2!important;pointer-events:none!important}
+.feature-original>img{width:100%!important;max-width:none!important;height:auto!important;transform:none!important;display:block!important}
