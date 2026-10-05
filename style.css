@@ -757,3 +757,8 @@ blockquote {
 .feature-original::after{display:none!important}
 .feature-original{overflow:hidden!important}
 .feature-original>img{width:125.15%!important;max-width:none!important;height:auto!important;transform:translateX(-20.06%)!important;display:block!important}
+
+/* Final Feature.png crop: remove exactly the original left intro column */
+.feature-original{overflow:hidden!important}
+.feature-original::after{display:none!important}
+.feature-original>img{width:132.47%!important;max-width:none!important;height:auto!important;transform:translateX(-24.51%)!important;display:block!important}
