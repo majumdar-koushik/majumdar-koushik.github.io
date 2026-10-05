@@ -738,42 +738,20 @@ blockquote {
 .how-intro{margin:0 0 18px;max-width:820px}
 .how-intro h3{margin:0;font-size:1.15rem;line-height:1.25;letter-spacing:-.015em;font-weight:600}
 .how-intro p{margin:8px 0 0;color:var(--muted);font-size:.92rem;line-height:1.5}
-.feature-original{position:relative;width:100%;overflow:hidden}
-.feature-original>img{display:block;width:100%;height:auto;max-width:none}
 .hide-first-feature-text{position:absolute;left:0;bottom:0;width:25%;height:22%;background:#eaf4fb}
 @media(max-width:820px){.hide-first-feature-text{height:22%}}
 @media(max-width:560px){.hide-first-feature-text{width:25%;height:22%}}
 
 /* Hide the first text panel in Feature.png without altering the supplied image */
-.feature-original{position:relative;overflow:hidden}
-.feature-original>img{display:block;width:100%;height:auto;max-width:none}
-.feature-original::after{content:"";position:absolute;left:0;bottom:0;width:25%;height:22%;background:#fff;z-index:2;pointer-events:none}
 
 /* Remove the entire first text column by cropping the original Feature.png */
-.feature-original::after{display:none!important}
-.feature-original>img{width:133.333%!important;max-width:none!important;transform:translateX(-25%)!important}
 
 /* Feature.png: remove only the original introductory column, preserve the four app screens and captions */
-.feature-original::after{display:none!important}
-.feature-original{overflow:hidden!important}
-.feature-original>img{width:125.15%!important;max-width:none!important;height:auto!important;transform:translateX(-20.06%)!important;display:block!important}
 
 /* Final Feature.png crop: remove exactly the original left intro column */
-.feature-original{overflow:hidden!important}
-.feature-original::after{display:none!important}
-.feature-original>img{width:132.47%!important;max-width:none!important;height:auto!important;transform:translateX(-24.51%)!important;display:block!important}
 
 /* Final correction: keep Feature.png intact; hide only the top intro in column 1, not its step text */
-.feature-original{overflow:hidden!important}
-.feature-original::after{content:""!important;display:block!important;position:absolute!important;left:0!important;top:0!important;bottom:auto!important;width:25%!important;height:77%!important;background:#fff!important;z-index:2!important;pointer-events:none!important}
-.feature-original>img{width:100%!important;max-width:none!important;height:auto!important;transform:none!important;display:block!important}
 
 /* Use the original Feature.png, shifted left to remove its intro column */
-.feature-original{position:relative!important;overflow:hidden!important;width:100%!important}
-.feature-original::after{display:none!important}
-.feature-original>img{position:relative!important;left:-32.0%!important;transform:none!important;width:132.35%!important;max-width:none!important;height:auto!important;display:block!important}
 
 /* Correct exact crop: Feature.png x=437 is the start of the four app columns */
-.feature-original{position:relative!important;overflow:hidden!important;width:100%!important}
-.feature-original::after{display:none!important}
-.feature-original>img{position:relative!important;left:-58.9%!important;transform:none!important;width:132.18%!important;max-width:none!important;height:auto!important;display:block!important}
