@@ -752,3 +752,8 @@ blockquote {
 /* Remove the entire first text column by cropping the original Feature.png */
 .feature-original::after{display:none!important}
 .feature-original>img{width:133.333%!important;max-width:none!important;transform:translateX(-25%)!important}
+
+/* Feature.png: remove only the original introductory column, preserve the four app screens and captions */
+.feature-original::after{display:none!important}
+.feature-original{overflow:hidden!important}
+.feature-original>img{width:125.15%!important;max-width:none!important;height:auto!important;transform:translateX(-20.06%)!important;display:block!important}
