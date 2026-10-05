@@ -748,3 +748,7 @@ blockquote {
 .feature-original{position:relative;overflow:hidden}
 .feature-original>img{display:block;width:100%;height:auto;max-width:none}
 .feature-original::after{content:"";position:absolute;left:0;bottom:0;width:25%;height:22%;background:#fff;z-index:2;pointer-events:none}
+
+/* Remove the entire first text column by cropping the original Feature.png */
+.feature-original::after{display:none!important}
+.feature-original>img{width:133.333%!important;max-width:none!important;transform:translateX(-25%)!important}
