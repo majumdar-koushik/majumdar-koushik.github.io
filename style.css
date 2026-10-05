@@ -772,3 +772,8 @@ blockquote {
 .feature-original{position:relative!important;overflow:hidden!important;width:100%!important}
 .feature-original::after{display:none!important}
 .feature-original>img{position:relative!important;left:-32.0%!important;transform:none!important;width:132.35%!important;max-width:none!important;height:auto!important;display:block!important}
+
+/* Correct exact crop: Feature.png x=437 is the start of the four app columns */
+.feature-original{position:relative!important;overflow:hidden!important;width:100%!important}
+.feature-original::after{display:none!important}
+.feature-original>img{position:relative!important;left:-58.9%!important;transform:none!important;width:132.18%!important;max-width:none!important;height:auto!important;display:block!important}
