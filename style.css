@@ -755,3 +755,18 @@ blockquote {
 /* Use the original Feature.png, shifted left to remove its intro column */
 
 /* Correct exact crop: Feature.png x=437 is the start of the four app columns */
+
+/* Features tab: screenshot-based feature list */
+.feature-list{display:flex;flex-direction:column;gap:28px}
+.feature-showcase{display:grid;grid-template-columns:minmax(250px,.72fr) minmax(0,1.28fr);gap:34px;align-items:center;padding:0 0 28px;border-bottom:1px solid var(--line)}
+.feature-showcase:last-child{border-bottom:0}
+.feature-copy h3{margin:0;font-size:1.15rem;line-height:1.25;letter-spacing:-.015em}
+.feature-copy p{margin:9px 0 0;color:var(--muted);font-size:.9rem;line-height:1.5}
+.feature-showcase img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;object-position:left center;border-radius:12px}
+.feature-showcase .feature-banner-image{max-width:100%;max-height:120px;object-fit:contain;object-position:left center}
+.feature-text-only{grid-template-columns:1fr;padding-bottom:20px}
+@media(max-width:820px){
+  .feature-showcase{grid-template-columns:1fr;gap:14px}
+  .feature-showcase img{max-height:500px;max-width:100%;margin:0 auto}
+  .feature-showcase .feature-banner-image{max-height:150px;margin:0}
+}
